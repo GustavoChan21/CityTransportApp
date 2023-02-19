@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">CityTransport</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="description_carrusel1">
+        Servicios locales al alcance de tu mano!
+    </string>
+    <string name="description_carrusel2">
+        Todo lo que desees con solo un clic
+    </string>
+    <string name="objetive">
+        Nuestro objetivo es compartir información acerca de los múltiples servicios
+        que existen en las comunidades, para que tanto como residentes, visitantes y turístas
+        puedan saber donde ubicar los servicios que deseen durante su visita a estas comunidades.
+    </string>
+
+    <string name="endCarrusel">
+        Para finalizar haga clic en el check y poder Continuar y Acceder.
+    </string>
+    <string name="endCarrusel2">
+        Puede Acceder como Invitado o Crear una Cuenta desde cero.
+    </string>
+
+    <string name="login">"LOGIN"</string>
+    <string name="user">"Usuario"</string>
+    <string name="password">"Contraseña"</string>
+    <string name="remember">"Recuerdame"</string>
+    <string name="forget">"Olvidé mi Contraseña"</string>
+    <string name="access">"INICIAR SESIÓN"</string>
+    <string name="new_account">"Crear una Cuenta"</string>
+    <string name="next">"Continuar con: "</string>
+    <string name="or">"o"</string>
+
+    <string name="register">"REGISTER"</string>
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="nameUser">Gustavo Alberto Chan Cauich</string>
+    <string name="nameUser2">Daniel Guadalupe Díaz Chulim</string>
+    <string name="gmail">gustavoa21@gmail.com</string>
+    <string name="gmail2">danieldiaz07@gmail.com</string>
+
+    <!--  NOmbre de los autobuses  -->
+    <string name="Mayab">Mayab</string>
+    <string name="Ats">ATS</string>
+    <string name="Oriente">Oriente</string>
+    <string name="Sur">Sur</string>
+
+    <!--  Country location  -->
+    <string-array name="destino">
+        <item>Playa del Carmen</item>
+        <item>Mérida</item>
+        <item>Cancun</item>
+        <item>Chetumal</item>
+        <item>Tizimín</item>
+        <item>Peto</item>
+        <item>Tekax</item>
+        <item>Oxkutzcab</item>
+        <item>Ticul</item>
+    </string-array>
+
+    <string-array name="Ubicación">
+        <item>Tekax, Yucatán</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
+

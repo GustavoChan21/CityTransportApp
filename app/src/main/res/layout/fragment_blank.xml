@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/cuadro1"
+        android:layout_width="match_parent"
+        android:background="@color/quantum_googred"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/campo1"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:textSize="26sp"
+            android:text="@string/campo_nombre"/>
+        <TextView
+            android:id="@+id/servicio1"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="end"
+            android:textSize="22sp"
+            android:text="@string/nombre_servicio_h2"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/cuadro2"
+        android:layout_width="match_parent"
+        android:background="@color/quantum_grey"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/campo2"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:textSize="26sp"
+            android:text="@string/campo_nombre"/>
+        <TextView
+            android:id="@+id/servicio2"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="end"
+            android:textSize="22sp"
+            android:text="@string/nombre_servicio_h1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/cuadro3"
+
+        android:layout_width="match_parent"
+        android:background="@color/Blue_main"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="240dp"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/campo3"
+            android:textColor="@color/black"
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:textSize="26sp"
+            android:text="@string/campo_nombre"/>
+        <TextView
+            android:id="@+id/servicio3"
+            android:textColor="@color/black"
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="end"
+            android:textSize="22sp"
+            android:text="@string/nombre_servicio_h3"/>
+    </LinearLayout>
+
+
+
+</FrameLayout>

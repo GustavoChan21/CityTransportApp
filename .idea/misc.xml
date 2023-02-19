@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Gusta/AndroidStudioProjects/CityTransport/app/src/main/res/layout/activity_login.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Gusta/AndroidStudioProjects/CityTransport/app/src/main/res/layout/activity_main.xml" value="0.19265639165911153" />
+        <entry key="..\:/Users/Gusta/AndroidStudioProjects/CityTransport/app/src/main/res/layout/activity_main2.xml" value="0.2" />
+        <entry key="..\:/Users/Gusta/AndroidStudioProjects/CityTransport/app/src/main/res/layout/activity_main3.xml" value="0.2" />
+        <entry key="..\:/Users/Gusta/AndroidStudioProjects/CityTransport/app/src/main/res/menu/bottom_opcions_bus.xml" value="0.1" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/CityTransport/app/src/main/res/drawable/ic_launcher.xml" value="0.124" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/CityTransport/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.140234375" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/CityTransport/app/src/main/res/layout-w936dp/activity_login.xml" value="0.12260928961748634" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/CityTransport/app/src/main/res/layout/activity_login.xml" value="0.12" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/CityTransport/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/CityTransport/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/CityTransport/app/src/main/res/layout/activity_main3.xml" value="0.1627379873073436" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/CityTransport/app/src/main/res/layout/activity_main4.xml" value="0.264" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/CityTransport/app/src/main/res/layout/activity_main5.xml" value="0.1627379873073436" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/CityTransport/app/src/main/res/layout/activity_main6.xml" value="0.1627379873073436" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/CityTransport/app/src/main/res/layout/activity_main_boleto.xml" value="0.14505893019038985" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/CityTransport/app/src/main/res/layout/activity_main_home.xml" value="0.2" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/CityTransport/app/src/main/res/layout/activity_main_resultados.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/CityTransport/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/CityTransport/app/src/main/res/layout/app_bar_main.xml" value="0.2" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/CityTransport/app/src/main/res/layout/dropdown_item.xml" value="0.264" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/CityTransport/app/src/main/res/layout/list_item.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/CityTransport/app/src/main/res/layout/nav_header_main.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/CityTransport/app/src/main/res/menu/activity_main_drawer.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/CityTransport/app/src/main/res/menu/bottom_opcions_bus.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/CityTransport/app/src/main/res/menu/bottom_opcions_menu.xml" value="0.20863616930312098" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

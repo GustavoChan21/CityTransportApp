@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item android:id="@+id/promociones"
+            android:icon="@drawable/ic_drawer_promocion"
+            android:title="Promociones"/>
+
+        <item android:id="@+id/ayuda"
+            android:icon="@drawable/ic_drawer_ayuda"
+            android:title="Ayuda y comentarios"
+            tools:ignore="HardcodedText" />
+
+        <item android:id="@+id/configuracion"
+            android:icon="@drawable/ic_drawer_settings"
+            android:title="Configuración"/>
+    </group>
+
+    <item android:title="Acerca de">
+        <menu>
+            <item android:id="@+id/Versión"
+                android:title="Version 1.1 Beta"
+                app:itemTextColor="#fff"/>
+
+        </menu>
+    </item>
+
+    <item android:title="Cerrar Sesión">
+        <menu>
+            <item android:id="@+id/cerrar"
+                android:icon="@drawable/ic_drawer_logout"
+                android:title="Cerrar"/>
+        </menu>
+    </item>
+</menu>

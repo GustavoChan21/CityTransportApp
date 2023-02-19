@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_header"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#005bea"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/nav_header_imageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_user" />
+
+    <TextView
+        android:id="@+id/nav_header_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:text="@string/nameUser"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+    <TextView
+        android:id="@+id/nav_header_user2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nameUser2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/nav_header_gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="@string/gmail"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+    <TextView
+        android:id="@+id/nav_header_gmail2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/gmail2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+</LinearLayout>

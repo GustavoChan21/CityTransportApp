@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.App" parent="Theme.MaterialComponents.DayNight.NoActionBar"/>
+    <style name="lineTheme" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxStrokeColor">#005bea</item>
+        <item name="hintTextColor">#005bea</item>
+        <item name="android:textColorHint">#192a56</item>
+    </style>
+</resources>

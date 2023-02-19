@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/fondo"
+        >
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            android:layout_width="340dp"
+            android:layout_height="280dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90pt"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/login" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/animationView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="8pt"
+            android:layout_marginTop="15pt"
+            android:layout_marginEnd="8pt"
+            android:text="@string/endCarrusel"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="10pt"
+            android:textStyle="italic|bold">
+
+        </TextView>
+        <TextView
+            android:id="@+id/description2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/description"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="8pt"
+            android:layout_marginTop="15pt"
+            android:layout_marginEnd="8pt"
+            android:text="@string/endCarrusel2"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="10pt"
+            android:textStyle="italic|bold">
+
+        </TextView>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/inicio_selector"
+        android:title="Inicio" />
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search_selector"
+        android:title="Buscar" />
+
+    <item
+        android:id="@+id/ticket"
+        android:icon="@drawable/ticket_selector"
+        android:title="Boleto"/>
+
+    <item
+        android:id="@+id/favorito"
+        android:icon="@drawable/favorite_selector"
+        android:title="Favorito" />
+</menu>

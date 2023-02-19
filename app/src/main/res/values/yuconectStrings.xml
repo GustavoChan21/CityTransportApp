@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--   TITULO TIPO DE SERVICIO-->
+    <string name="tipo1">Hotel / Hospedaje</string>
+    <string name="tipo2">Alimentos / Restaurante</string>
+    <string name="tipo3">Turismo / Destinos Turísticos</string>
+    <string name="tipo4">Gasolinera / Estación</string>
+    <string name="tipo5">Servicios Particulares</string>
+    <string name="tipo6">Abarrotes</string>
+    <string name="tipo7">Salud</string>
+    <string name="tipo8">Servicios Públicos</string>
+
+    <!--    CAMPOS DE TODOS LOS SERVICIOS TEXTVIEW 1-->
+    <string name="campo_nombre">Nombre: </string>
+    <string name="campo_horario">Horario: </string>
+    <string name="campo_precio">Precio: </string>
+    <string name="campo_ubicacion">Ubicación: </string>
+    <string name="campo_municipio">Municipio: </string>
+    <string name="campo_contacto">Contacto: </string>
+    <string name="campo_servicio">Servicio: </string>
+
+    <!--   DATOS PARA EL TEXTVIEW 2-->
+    <!--   HOSPEDAJE-->
+    <string name="nombre_servicio_h1">TecnoHotel Express</string>
+    <string name="horario_h1">24 Horas</string>
+    <string name="precio_h1">$600 - $900 MXN</string>
+    <string name="ubicacion_h1">Calle 51 entre 102 y 104, Chobenché, 97970</string>
+    <string name="municipio_h1">Tekax, Yucatán</string>
+    <string name="contacto_h1">997 979 00 10</string>
+    <string name="servicio_h1">Con Reservación Previa</string>
+
+    <string name="nombre_servicio_h2">El Sultán de la Sierra</string>
+    <string name="horario_h2">24 Horas</string>
+    <string name="precio_h2">$300 - $500 MXN</string>
+    <string name="ubicacion_h2">Calle 50a #211 entre 55 y 57, Colonia Centro</string>
+    <string name="municipio_h2">Tekax, Yucatán</string>
+    <string name="contacto_h2">997 974 21 69</string>
+    <string name="servicio_h2">Con Reservación Previa</string>
+
+    <string name="nombre_servicio_h3">Posada del Carmen</string>
+    <string name="horario_h3">24 Horas</string>
+    <string name="precio_h3">$250 - $350 MXN</string>
+    <string name="ubicacion_h3">Calle 52 entre 53 y 55 Colonia Centro</string>
+    <string name="municipio_h3">Tekax, Yucatán</string>
+    <string name="contacto_h3">997 974 03 12</string>
+    <string name="servicio_h3">Con Reservación Previa</string>
+
+    <!--    RESTAURANTE-->
+    <string name="nombre_servicio_r1">Restaurante El Huinic</string>
+    <string name="horario_r1">Todos los días 8:00am hasta 3:00pm</string>
+    <string name="precio_r1">$50- $300 MXN</string>
+    <string name="ubicacion_r1">Calle 54 entre 47 y 49, Colonia Centro</string>
+    <string name="municipio_r1">Tekax, Yucatán</string>
+    <string name="contacto_r1">997 974 03 12</string>
+    <string name="servicio_r1">En Establecimiento</string>
+
+    <string name="nombre_servicio_r2">Restaurante Muldzinick</string>
+    <string name="horario_r2">Todos los días 11:00am hasta 6:30pm</string>
+    <string name="precio_r2">$200 - $600 MXN</string>
+    <string name="ubicacion_r2">Calle 51 entre 102 y 104, Chobenché, 97970</string>
+    <string name="municipio_r2">Tekax, Yucatán</string>
+    <string name="contacto_r2">997 979 00 10</string>
+    <string name="servicio_r2">En Establecimiento / A Domicilio</string>
+
+    <string name="nombre_servicio_r3">El Bistró Tekax</string>
+    <string name="horario_r3">Todos los días 4:00pm hasta 9:30pm</string>
+    <string name="precio_r3">$100 - $400 MXN</string>
+    <string name="ubicacion_r3">Calle 50 entre 45 y 47, Colonia Centro</string>
+    <string name="municipio_r3">Tekax, Yucatán</string>
+    <string name="contacto_r3">997 979 36 21</string>
+    <string name="servicio_r3">A Domicilio</string>
+
+    <string name="nombre_servicio_r4">La Conquista</string>
+    <string name="horario_r4">Todos los días de 12:00pm a 6:00pm</string>
+    <string name="precio_r4">$600 - $900 MXN</string>
+    <string name="ubicacion_r4">Calle 51 entre 102 y 104, Chobenché, 97970</string>
+    <string name="municipio_r4">Tekax, Yucatán</string>
+    <string name="contacto_r4">997 110 64 06</string>
+    <string name="servicio_r4">"En Establecimiento"</string>
+
+    <!--    TURISMO-->
+    <string name="nombre_servicio_t1">Parque Ecoturistico Kaalmankal</string>
+    <string name="horario_t1">Todos los días de 9:00am a 4:00pm</string>
+    <string name="precio_t1">$100 - $250 MXN</string>
+    <string name="ubicacion_t1">Calle 70 carretera Tekax-Kancab km 1</string>
+    <string name="municipio_t1">Tekax, Yucatán</string>
+    <string name="contacto_t1">997 134 23 26</string>
+    <string name="servicio_t1">Con Reservación Previa</string>
+
+    <string name="nombre_servicio_t2">Grutas Chocantes</string>
+    <string name="horario_t2">Todos los días de 9:00am a 3:00pm</string>
+    <string name="precio_t2">$300 MXN</string>
+    <string name="ubicacion_t2">Calle 51 entre 102 y 104, Chobenché, 97970</string>
+    <string name="municipio_t2">Tekax, Yucatán</string>
+    <string name="contacto_t2">997 979 00 10</string>
+    <string name="servicio_t2">Con Reservación Previa</string>
+
+    <string name="nombre_servicio_t3">La Ermita de Tekax</string>
+    <string name="horario_t3">Todos los días de 8:00am a 9:00pm</string>
+    <string name="precio_t3">Gratis</string>
+    <string name="ubicacion_t3">La Ermita, 97970</string>
+    <string name="municipio_t3">Tekax, Yucatán</string>
+    <string name="contacto_t3">--- --- -- --</string>
+    <string name="servicio_t3">En Establecimiento</string>
+
+    <!--    GASOLINERAS-->
+    <string name="nombre_servicio_g1">Estación de Servicio Tekax</string>
+    <string name="horario_g1">24 Horas</string>
+    <string name="precio_g1">$22 MXN/L</string>
+    <string name="ubicacion_g1">Calle 55 #172, Colonia Padre Eterno, 97970</string>
+    <string name="municipio_g1">Tekax, Yucatán</string>
+    <string name="contacto_g1">997 974 00 53</string>
+    <string name="servicio_g1">En Establecimiento</string>
+
+    <string name="nombre_servicio_g2">Gasolinera Megasur</string>
+    <string name="horario_g2">24 Horas</string>
+    <string name="precio_g2">$22 MXN/L</string>
+    <string name="ubicacion_g2">Calle 76 LB, Colonia Chobenché, 97970</string>
+    <string name="municipio_g2">Tekax, Yucatán</string>
+    <string name="contacto_g2">997 974 20 44</string>
+    <string name="servicio_g2">En Establecimiento</string>
+
+    <string name="nombre_servicio_g3">Gas LP Tomza</string>
+    <string name="horario_g3">Todos los días de 6:00 am a 10:00pm</string>
+    <string name="precio_g3">$12 MXN/L   o   $22 MXN/Kg</string>
+    <string name="ubicacion_g3">Calle 70 #165, Colonia San Francisco</string>
+    <string name="municipio_g3">Tekax, Yucatán</string>
+    <string name="contacto_g3">997 972 10 10</string>
+    <string name="servicio_g3">En Establecimiento / A Domicilio</string>
+
+    <!--    SERVICIOS PARTICULARES-->
+    <string name="nombre_servicio_si1">Ferretería y Multiservicios los 3 Hermanos</string>
+    <string name="horario_si1">Lunes a Miércoles 9:00 a 19:00</string>
+<!--    <string name="precio_si1">$50 MXN en adelante</string>-->
+    <string name="ubicacion_si1">Calle 50 entre 43 y 45, 97970</string>
+    <string name="municipio_si1">Tekax, Yucatán</string>
+    <string name="contacto_si1">997 129 14 76</string>
+    <string name="servicio_si1">En Establecimiento</string>
+
+    <string name="nombre_servicio_si2">Taller de Motos Ángel</string>
+    <string name="horario_si2">Lunes a Sábado de 9:00am hasta 9:00pm</string>
+<!--    <string name="precio_si2">$200 MXN en adelante</string>-->
+    <string name="ubicacion_si2">Calle 53 entre 32 y 34, Padre Eterno, 97970</string>
+    <string name="municipio_si2">Tekax, Yucatán</string>
+    <string name="contacto_si2">997 156 19 48</string>
+    <string name="servicio_si2">En Establecimiento / A Domicilio</string>
+
+    <string name="nombre_servicio_si3">Taller Automotriz Henri Jr</string>
+    <string name="horario_si3">Lunes a Sábado de 8:00am hasta 6:00pm</string>
+<!--    <string name="precio_si3">$200 en adelante</string>-->
+    <string name="ubicacion_si3">C. 49 #241 entre 60 y 62, Colonia San Francisco, 97970</string>
+    <string name="municipio_si3">Tekax, Yucatán</string>
+    <string name="contacto_si3">997 141 12 31</string>
+    <string name="servicio_si3">En Establecimiento / A Domicilio</string>
+
+    <!--    ABARROTES-->
+    <string name="nombre_servicio_a1">Tienda los 3 Reyes</string>
+    <string name="horario_a1">Lunes a Viernes de 9:00am-3:00pm</string>
+<!--    <string name="precio_a1">$10 MXN en adelante</string>-->
+    <string name="ubicacion_a1">Calle 49 entre 78 y 82, Colonia Chobenché, 97970</string>
+    <string name="municipio_a1">Tekax, Yucatán</string>
+    <string name="contacto_a1">--- --- -- --</string>
+    <string name="servicio_a1">En Establecimiento</string>
+
+    <string name="nombre_servicio_a2">Oxxo San Diego</string>
+    <string name="horario_a2">24 Horas</string>
+<!--    <string name="precio_a2">$200 MXN en adelante</string>-->
+    <string name="ubicacion_a2">Calle 51 entre 74 y 76, Colonia Chobenché, 97970</string>
+    <string name="municipio_a2">Tekax, Yucatán</string>
+    <string name="contacto_a2">818 320 20 20</string>
+    <string name="servicio_a2">En Establecimiento</string>
+
+    <string name="nombre_servicio_a3">Dunosusa Tekax 2</string>
+    <string name="horario_a3">Lunes a Sábado de 8:00am hasta 6:00pm</string>
+<!--    <string name="precio_a3">$200 en adelante</string>-->
+    <string name="ubicacion_a3">Calle 41 entre 44 y 46, Colonia San Francisco, 97970</string>
+    <string name="municipio_a3">Tekax, Yucatán</string>
+    <string name="contacto_a3">999 940 60 60</string>
+    <string name="servicio_a3">En Establecimiento</string>
+
+    <!--    SALUD-->
+    <string name="nombre_servicio_s1">UMF #55 IMSS Tekax</string>
+    <string name="horario_s1">Lunes a Viernes de 7:00am hasta 8:00pm</string>
+    <!--    <string name="precio_s1">$10 MXN en adelante</string>-->
+    <string name="ubicacion_s1">C. 43 entre 56 y 58, Colonia San Francisco, 97970</string>
+    <string name="municipio_s1">Tekax, Yucatán</string>
+    <string name="contacto_s1">997 117 12 28</string>
+    <string name="servicio_s1">En Establecimiento</string>
+
+    <string name="nombre_servicio_s2">Hospital General de Tekax</string>
+    <string name="horario_s2">24 Horas</string>
+    <!--    <string name="precio_s2">$200 MXN en adelante</string>-->
+    <string name="ubicacion_s2">Calle 59 entre 56 y 60, 97970</string>
+    <string name="municipio_s2">Tekax, Yucatán</string>
+    <string name="contacto_s2">--- --- -- --</string>
+    <string name="servicio_s2">En Establecimiento</string>
+
+    <string name="nombre_servicio_s3">Farmacia YZA Tekax</string>
+    <string name="horario_s3">Todos los días de 5:00am hasta 11:00pm</string>
+    <!--    <string name="precio_s3">$200 en adelante</string>-->
+    <string name="ubicacion_s3">Calle 51 entre 48 y 50, Colonia Centro, 97970</string>
+    <string name="municipio_s3">Tekax, Yucatán</string>
+    <string name="contacto_s3">997 974 08 27</string>
+    <string name="servicio_s3">En Establecimiento</string>
+
+    <!--    SERVICIOS PUBLICOS-->
+    <string name="nombre_servicio_sp1">Comisión Federal de Electricidad "CFE"</string>
+    <string name="horario_sp1">24 Horas</string>
+    <!--    <string name="precio_sp1">$10 MXN en adelante</string>-->
+    <string name="ubicacion_sp1">Calle 57 entre 24 y 26 Yocchenkax</string>
+    <string name="municipio_sp1">Tekax, Yucatán</string>
+    <string name="contacto_sp1">997 972 11 52 </string>
+    <string name="servicio_sp1">Emergencias / Reportes de Fallas</string>
+
+    <string name="nombre_servicio_sp2">Bomberos</string>
+    <string name="horario_sp2">24 Horas</string>
+    <!--    <string name="precio_s2">$200 MXN en adelante</string>-->
+    <string name="ubicacion_sp2">Calle 57 #70, Jardines de Sta María, 97970</string>
+    <string name="municipio_sp2">Tekax, Yucatán</string>
+    <string name="contacto_sp2">997 974 06 89</string>
+    <string name="servicio_sp2">Emergencias</string>
+
+    <string name="nombre_servicio_sp3">Policía Municipal</string>
+    <string name="horario_sp3">24 Horas</string>
+    <!--    <string name="precio_sp3">$200 en adelante</string>-->
+    <string name="ubicacion_sp3">Calle 50 entre 39 y 41 Colonia Lazaro</string>
+    <string name="municipio_sp3">Tekax, Yucatán</string>
+    <string name="contacto_sp3">997 974 06 89</string>
+    <string name="servicio_sp3">Emergencias</string>
+
+</resources>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_main"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--  Panel Principal  -->
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/transparent"
+        android:fitsSystemWindows="true"
+        android:outlineAmbientShadowColor="@android:color/transparent"
+        android:outlineSpotShadowColor="@android:color/transparent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/toolbar_panel_background"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:layout_scrollFlags="scroll|enterAlways" />
+
+        <!--    Btn enviar    -->
+        <Button
+            android:id="@+id/detalles_boleto"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@+id/panel_control"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#0097e6"
+            android:text="Detalles de Boleto"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            app:cornerRadius="15dp" />
+
+        <!--  Panel controller  -->
+        <RelativeLayout
+            android:id="@+id/panel_control"
+            android:layout_width="300dp"
+            android:layout_height="180dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/panel_selector"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/origin"
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/lineTheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="10dp"
+                    app:boxCornerRadiusBottomEnd="15dp"
+                    app:boxCornerRadiusBottomStart="15dp"
+                    app:boxCornerRadiusTopEnd="15dp"
+                    app:boxCornerRadiusTopStart="15dp"
+                    app:startIconDrawable="@drawable/ic_destino"
+                    app:startIconTint="#e84118">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/ubicacion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="Origen"
+                        android:textColor="@color/black"
+                        android:inputType="none"
+                        android:text="Tekax, Yucatán" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/destination"
+                android:layout_below="@id/origin"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/lineTheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    app:boxCornerRadiusBottomEnd="15dp"
+                    app:boxCornerRadiusBottomStart="15dp"
+                    app:boxCornerRadiusTopEnd="15dp"
+                    app:boxCornerRadiusTopStart="15dp"
+                    app:startIconDrawable="@drawable/ic_destino"
+                    app:startIconTint="#e84118">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/destino"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:hint="Destino"
+                        android:inputType="none" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <!-- ICON Notificacion -->
+        <ImageButton
+            android:id="@+id/notificacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="18dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_notification" />
+
+        <!-- Texto selecionar ruta -->
+        <TextView
+            android:id="@+id/textRuta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="20dp"
+            android:text="Selecciona una ruta"
+            android:textColor="#fff"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <!--  Menú Navigation options Bus  -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_bus"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_gravity="top"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bottom_bus_background"
+        app:itemIconSize="28dp"
+        app:itemTextColor="#192a56"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:menu="@menu/bottom_opcions_bus" />
+
+    <!--  Google Maps  -->
+    <fragment
+        android:id="@+id/fragment_map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_opcions"
+        app:layout_constraintTop_toBottomOf="@+id/bottom_navigation_bus" />
+
+    <!--  Menú Bottom Navigation Opcions -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_opcions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:elevation="8dp"
+        android:outlineAmbientShadowColor="@android:color/transparent"
+        android:outlineSpotShadowColor="@android:color/transparent"
+        app:itemRippleColor="@color/white"
+        app:itemTextColor="@color/Color_text"
+        app:labelVisibilityMode="selected"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/bottom_opcions_menu" />
+</androidx.constraintlayout.widget.ConstraintLayout>
